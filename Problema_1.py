@@ -14,9 +14,9 @@ if ((p2>p1) and (p2>p3)):
     print("Punctajul maxim are elevul cu numarul", nr2)
 if ((p3>p1) and (p3>p2)):
     print("Punctajul maxim are elevul cu numarul", nr3)
-if (p1==p2):
+if ((p1==p2) and (p1>p3) and (p2>p3)):
     print("Punctajul maxim il au elevii cu numerele", nr1,nr2)
-if (p2==p3):
+if ((p2==p3) and (p2>p1) and (p3>p1)):
     print("Punctajul maxim il au elevii cu numerele", nr2,nr3)
-if (p1==p3):
+if ((p1==p3) and (p1>p2) and (p3>p2):
     print("Punctajul maxim il au elevii cu numerele", nr1,nr3)
